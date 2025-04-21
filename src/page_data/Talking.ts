@@ -9,7 +9,7 @@ export default {
       "tags": [
         "咒术回战",
       ],
-      "content": "好帅，<p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/rJ0X6Vi.png\"></p>"
+      "content": "领域展开 <p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/rJ0X6Vi.png\"></p>"
     },
     {
       "date": "2024-10-05 16:16:06",
