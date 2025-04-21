@@ -130,23 +130,27 @@ export default {
 ```js
 // 配置文件 src/page_data/Talking.ts
 export default {
-	// API 接口请求优先，数据格式保持和 data 一致
-	api: "",
-	// api 为空则使用 data 静态数据
-	// 注意：图片请用 vh-img-flex 类包裹
-	data: [
-		{
-			date: "2025-02-12 19:36:16",
-			tags: ["树", "夕阳"],
-			content: '好美🌲<p class="vh-img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/1655466387/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
-		},
-		{
-			date: "2024-10-05 16:16:06",
-			tags: ["日常"],
-			content: "记录第一条说说"
-		}
-	]
-};
+  // API 接口请求优先，数据格式保持和 data 一致
+  api: '',
+  // api 为空则使用 data 静态数据 
+  // 注意：图片请用 vh-img-flex 类包裹
+  data: [
+    {
+      "date": "2025-04-21 14:57:16",
+      "tags": [
+        "咒术回战",
+      ],
+      "content": "领域展开 <p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/rJ0X6Vi.png\"></p>"
+    },
+    {
+      "date": "2025-04-20 14:57:06",
+      "tags": [
+        "日常"
+      ],
+      "content": "记录第一条说说"
+    }
+  ]
+}
 ```
 
 ### 圈子（需部署 FreshRSS）
@@ -154,33 +158,19 @@ export default {
 ```js
 // 配置文件 src/page_data/Friends.ts
 export default {
-	// API 接口请求优先，数据格式保持和 data 一致
-	api: "",
-	// api 为空则使用 data 静态数据
-	data: [
-		{
-			title: "Astro 中使用 Lenis 增加鼠标滚动阻尼感",
-			auther: "韩小韩博客",
-			date: "2025-03-06",
-			link: "https://www.vvhan.com/article/Lenis-in-Astro",
-			content: "在移动端触控交互中，惯性滚动带来的丝滑体验已成为标配，但鼠标滚轮受限于机械结构，滚动时难免产生生硬的段落感。如何让传统滚轮操作也能获得如触控板般的阻尼反馈？Lenis库通过JavaScript模拟惯性算法，成功将”物理惯性”引入网页滚动，本文将解析其实现原理与实战应用。"
-		},
-		{
-			title: "Astro 添加 Twikoo 评论组件",
-			auther: "韩小韩博客",
-			date: "2025-03-03",
-			link: "https://www.vvhan.com/article/astro-twikoo",
-			content: "Astro在使用视图过渡路由时，在跳转路由时，会导致JS文件只有在第一次进入页面时生效，所以Astro在使用视图过渡路由下Twikoo时无法正常使用的，我是单独写了一个评论组件，对Twikoo进行动态加载，然后在需要评论的页面引入的。"
-		},
-		{
-			title: "Astro主题-优雅的vhAstro-Theme【使用文档】",
-			auther: "韩小韩博客",
-			date: "2025-03-02",
-			link: "https://www.vvhan.com/article/astro-theme-vhastro-theme",
-			content: "🥝从Z-Blog到Emlog，从Typecho到Hexo，从动态博客到静态博客，作为一个前端，我深入了解了多种SSG工具，如Hexo、Vitepress、Hugo等，并最终锁定了Astro作为重构博客的选择。🍇Astro活跃的社区支持、广泛的现代框架兼容性、高效的性能优化、优秀的开发体验。"
-		}
-	]
-};
+  // API 接口请求优先，数据格式保持和 data 一致
+  api: '',
+  // api 为空则使用 data 静态数据
+  data: [
+    {
+      "title": "Fetch的GET、POST简单HTTP请求封装",
+      "auther": "韩小韩博客",
+      "date": "2025-02-24",
+      "link": "https://www.vvhan.com/article/fetch-get-post",
+      "content": "在现代Web开发中，FetchAPI已经可以完全替代Ajax，是处理HTTP请求的利器，且支持异步操作和Promise链式调用。本文将详细介绍如何使用FetchAPI封装GET和POST请求。通过封装，代码可复用性更高，逻辑更清晰，同时还能简化错误处理和请求配置，大大提升开发效率和代码质量。GET请"
+    }
+  ]
+}
 ```
 
 ## 📄 文章格式
@@ -251,26 +241,40 @@ comment: false # 关闭页面评论（默认开启）
 ## ⚙️ 项目配置
 ```js
 export default {
-  Title: '韩小韩博客',
-  Site: 'https://www.vvhan.com',
+  // 网站标题
+  Title: 'xqq博客',
+  // 网站地址
+  Site: 'https://www.journy.online',
+  // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
-  Description: '韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
-  Author: '.𝙃𝙖𝙣',
+  // 网站描述
+  Description: 'xqq博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
+  // 网站作者
+  Author: '.Xqq',
+  // 作者头像
+  Avatar: 'https://wp-cdn.4ce.cn/v2/T7R5Ive.png',
+  // 网站座右铭
   Motto: '运气是计划之外的东西.',
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
-  // 网站创建时间
-  CreateTime: '2021-09-01',
+  // 网站侧边栏公告 (不填写即不开启)
+  Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
     '不曾与你分享的时间,我在进步.',
     "I am making progress in the time I haven't shared with you.",
   ],
+  // 网站创建时间
+  CreateTime: '2025-04-20',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
-    cover: '/assets/images/home-banner.webp'
+    // 首页高度
+    HomeHeight: '38.88rem',
+    // 其他页面高度
+    PageHeight: '28.88rem',
+    // 背景
+    background: "url('/assets/images/home-banner.webp') no-repeat center 60%/cover",
   },
   // 博客主题配置
   Theme: {
@@ -288,7 +292,7 @@ export default {
   },
   // 导航栏 (新窗口打开 newWindow: true)
   Navs: [
-    // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可（封装了 SVG 组件 为了极致压缩 SVG）
+    // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
     { text: '朋友', link: '/links', icon: 'Nav_friends' },
     { text: '圈子', link: '/friends', icon: 'Nav_rss' },
@@ -300,7 +304,7 @@ export default {
   ],
   // 侧边栏个人网站
   WebSites: [
-    // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可（封装了 SVG 组件 为了极致压缩 SVG）
+    // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
     { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
     { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
@@ -314,7 +318,7 @@ export default {
     WebSitesShow: true,
     // 是否展示分类
     CategoriesShow: true,
-    // 是否展示个人标签
+    // 是否展示标签
     TagsShow: true,
     // 是否展示推荐文章
     recommendArticleShow: true
@@ -322,6 +326,7 @@ export default {
   // DNS预解析地址
   DNSOptimization: [
     'https://i0.wp.com',
+    'https://cn.cravatar.com',
     'https://analytics.vvhan.com',
     'https://vh-api.4ce.cn',
     'https://registry.npmmirror.com',
@@ -346,11 +351,11 @@ export default {
   HanAnalytics: { enable: true, server: 'https://analytics.vvhan.com', siteId: 'Hello-HanHexoBlog' },
   // Google 广告
   GoogleAds: {
-    ad_Client: 'ca-pub-xxxxxxxxxx',
+    ad_Client: '', //ca-pub-xxxxxx
     // 侧边栏广告(不填不开启)
-    asideAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`,
+    asideAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`,
     // 文章页广告(不填不开启)
-    articleAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`
+    articleAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`
   },
   // 文章内赞赏码
   Reward: {
@@ -358,13 +363,21 @@ export default {
     AliPay: '/assets/images/alipay.webp',
     // 微信收款码
     WeChat: '/assets/images/wechat.webp'
-  }
+  },
+  // 访问网页 自动推送到搜索引擎
+  SeoPush: {
+    enable: false,
+    serverApi: '',
+    paramsName: 'url'
+  },
+  // 页面阻尼滚动速度
+  ScrollSpeed: 666
 }
 ```
 
 ## ✨ 反馈和建议
 
-如果您有任何建议/反馈，您可以通过我的 [电子邮件](mailto:1655466387@qq.com) 联系我。或者，如果您发现错误或想要请求新功能，请随时打开问题。
+如果您有任何建议/反馈，您可以通过我的 [电子邮件](mailto:332879882@qq.com) 联系我。或者，如果您发现错误或想要请求新功能，请随时打开问题。
 
 ## Stargazers over time
 
