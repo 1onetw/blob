@@ -17,7 +17,7 @@ type: "about"
 :::
 
 
-**在 Web 开发方面**，我深耕 Vue.js 生态，并且关注了现代 CSS 框架如 Tailwind CSS。同时，对前端构建工具如 Webpack、Rollup 和 Vite 以及代码质量和规范工具如 ESLint 进行了研究，我还关注了前端性能优化，例如代码分割、资源加载策略以及 Astro、Hexo 等现代网站构建工具的使用。
+**在 Web 开发方面**，我深耕 Vue.js 生态，并且关注了现代 CSS 框架如 Tailwind CSS。同时，对前端构建工具如 Webpack、Rollup 和 Vite 以及代码质量和规范工具如 ESLint 进行了研究，我还关注了前端性能优化，例如代码分割、资源加载策略以及 Astro、Layui、Vant weapp 等现代网站构建工具的使用。
 
 **在后端开发领域**，我熟悉SpringBoot与Django框架开发，擅长结合MySQL、MongoDB、Redis等数据库构建高效服务。能用Flask快速搭建轻量API，并通过Streamlit实现数据可视化交互。针对小型场景，灵活运用SQLite3完成本地化数据处理，同时借助Docker部署服务，保障系统稳定与扩展性。
 
