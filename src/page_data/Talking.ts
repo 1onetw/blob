@@ -5,6 +5,13 @@ export default {
   // 注意：图片请用 vh-img-flex 类包裹
   data: [
     {
+      "date": "2025-04-22 16:40:16",
+      "tags": [
+        "肖申克的救赎",
+      ],
+      "content": "按部就班，不抱有希望，即是束缚；\n 满怀希望，一丝不苟，即是自由。 <p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/3SpL23n.png\"></p>"
+    },
+    {
       "date": "2025-04-21 14:57:16",
       "tags": [
         "咒术回战",
