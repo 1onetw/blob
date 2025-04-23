@@ -14,7 +14,7 @@ const TwikooFn = async (commentDOM: string) => {
   // 新增样式加载逻辑
   const styleLink = document.createElement('link');
   styleLink.rel = 'stylesheet';
-  styleLink.href = '/src/components/Comment/Comment.less'; // 确保路径正确
+  styleLink.href = '/assets/css/Comment.css'; // 编译后路径
   document.head.appendChild(styleLink);
 
   // 原有初始化逻辑
