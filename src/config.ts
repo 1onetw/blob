@@ -97,7 +97,7 @@ export default {
     // Twikoo 评论
     Twikoo: {
       enable: false,
-      envId: ''
+      envId: 'https://verdant-kitten-e2cb38.netlify.app/.netlify/functions/twikoo'
     },
     // Waline 评论
     Waline: {
