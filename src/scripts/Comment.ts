@@ -3,46 +3,12 @@ import { LoadScript } from "@/utils/index";
 declare const twikoo: any;
 
 // Twikoo 评论
-/* const TwikooFn = async (commentDOM: string) => {
+const TwikooFn = async (commentDOM: string) => {
   document.querySelector(commentDOM)!.innerHTML = '<section class="vh-space-loading"><span></span><span></span><span></span></section>'
   await LoadScript("https://registry.npmmirror.com/twikoo/1.6.42/files/dist/twikoo.all.min.js");
   twikoo.init({ envId: SITE_INFO.Comment.Twikoo.envId, el: commentDOM, onCommentLoaded: () => setTimeout(() => document.querySelectorAll('.vh-comment a[href="#"]').forEach(link => link.removeAttribute('href'))) })
-} */
-
-// 在 Comment.ts 中确保加载自定义样式（新增代码）
-const TwikooFn = async (commentDOM: string) => {
-  // 1. 加载样式
-  await new Promise((resolve, reject) => {
-    const styleLink = document.createElement('link');
-    styleLink.rel = 'stylesheet';
-    styleLink.href = '/assets/css/Comment.css'; // 确保编译后路径正确
-    styleLink.onload = resolve;
-    styleLink.onerror = reject;
-    document.head.appendChild(styleLink);
-  });
-
-  // 2. 初始化容器
-  document.querySelector(commentDOM)!.innerHTML = '<section class="vh-space-loading"><span></span><span></span><span></span></section>';
-
-  // 3. 加载 Twikoo
-  await LoadScript("https://registry.npmmirror.com/twikoo/1.6.42/files/dist/twikoo.all.min.js");
-
-  // 4. 初始化评论
-  twikoo.init({
-    envId: SITE_INFO.Comment.Twikoo.envId,
-    el: commentDOM,
-    onCommentLoaded: () => {
-      // 5. 添加标识类
-      document.querySelector(commentDOM)?.classList.add('twikoo-custom');
-      // 6. 移除无用链接
-      setTimeout(() => {
-        document.querySelectorAll('.vh-comment a[href="#"]').forEach(link => {
-          link.removeAttribute('href');
-        });
-      });
-    }
-  });
 }
+ 
 
 // Waline 评论
 const WalineFn = async (commentDOM: string, walineInit: any) => {
