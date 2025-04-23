@@ -96,7 +96,7 @@ export default {
   Comment: {
     // Twikoo 评论
     Twikoo: {
-      enable: false,
+      enable: true,
       envId: 'https://verdant-kitten-e2cb38.netlify.app/.netlify/functions/twikoo'
     },
     // Waline 评论
