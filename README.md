@@ -375,6 +375,12 @@ export default {
 }
 ```
 
+## Twikoo 评论配置、邮箱配置
+
+参考资料：
+  1. https://twikoo.js.org/configuration.html
+  2. https://twikoo.js.org/configuration.html#%E9%85%8D%E7%BD%AE
+
 ## ✨ 反馈和建议
 
 如果您有任何建议/反馈，您可以通过我的 [电子邮件](mailto:332879882@qq.com) 联系我。或者，如果您发现错误或想要请求新功能，请随时打开问题。
