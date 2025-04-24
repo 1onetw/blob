@@ -4,9 +4,9 @@
 
 **「当极简主义遇上工程之美」**
 
-在线演示 ➡️ [https://www.vvhan.com](https://www.vvhan.com)
+在线演示 ➡️ [https://www.journy.online](https://www.journy.online)
 
-官方文档 ➡️ [vhAstro-Theme](https://www.vvhan.com/article/astro-theme-vhastro-theme)
+官方文档 ➡️ [vhAstro-Theme](https://www.journy.online/article/astro-theme-vhastro-theme)
 
 ![Astro主题 vhAstro-Theme](https://i0.wp.com/uxiaohan.github.io/v2/2025/04/1743737394560.webp)
 

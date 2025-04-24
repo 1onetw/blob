@@ -24,8 +24,7 @@ top: true
 ![Astro主题 vhAstro-Theme](https://i0.wp.com/uxiaohan.github.io/v2/2025/04/1743737394560.webp)
 
 ## 项目地址
-
-> 1、QQ 群下载：113445803 <br>2、GitHub 下载（推荐）：https://github.com/uxiaohan/vhAstro-Theme （谢谢你的star）
+2、GitHub 下载（推荐）：https://github.com/1onetw/blob （谢谢你的star）
 
 ## ✨ 功能特性
 
@@ -79,13 +78,11 @@ top: true
 
 ### Vercel 自动部署
 
-::btn[Vercel 一键部署]{link="https://vercel.com/new/clone?repository-url=https://github.com/uxiaohan/vhAstro-Theme"}
+[![vhAstro-Theme](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/uxiaohan/vhAstro-Theme)
 
 ### Cloudflare Pages 自动部署
 
-::btn[Cloudflare Pages 一键部署]{link="https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/uxiaohan/vhAstro-Theme" type="warning"}
-
-其他更多部署方式（简简单单闭眼部署），请参考 [Astro 官方文档](https://docs.astro.build/en/guides/integrations-guide/cloudflare/)。
+[![vhAstro-Theme](https://deploy.workers.cloudflare.com/button)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create/deploy-to-workers&repository=https://github.com/uxiaohan/vhAstro-Theme)
 
 ### 使用命令拉取模板
 
@@ -115,13 +112,7 @@ pnpm newpost '文章标题'
 
 ### ⚠️ Hexo 迁移 Astro 方法
 
-:::note{type="success"}
-将 `Hexo` 博客的 `src/_posts/` 目录下的文章文件，复制到 `Astro` 的 `src/content/blog/` 目录下即可，然后自定义 `src/config.ts` 配置文件去自定义博客。
-
-⚠️ `Hexo` 的部署、使用、自动化部署等方法 完全适用于 `Astro` 博客！
-
-🎉 此时，你已成功迁移 Hexo 博客至 Astro 博客！
-:::
+> 将 `Hexo` 博客的 `src/_posts/` 目录下的文章文件，复制到 `Astro` 的 `src/content/blog/` 目录下即可，然后自定义 `src/config.ts` 配置文件去自定义博客。<br>⚠️ `Hexo` 的部署、使用、自动化部署等方法 完全适用于 `Astro` 博客！<br>🎉 此时，你已成功迁移 Hexo 博客至 Astro 博客！
 
 ## 🍬 特色页面
 
@@ -155,26 +146,30 @@ export default {
 ```js
 // 配置文件 src/page_data/Talking.ts
 export default {
-	// API 接口请求优先，数据格式保持和 data 一致
-	api: "",
-	// api 为空则使用 data 静态数据
-	// 注意：图片请用 vh-img-flex 类包裹
-	data: [
-		{
-			date: "2025-02-12 19:36:16",
-			tags: ["树", "夕阳"],
-			content: '好美🌲<p class="vh-img-flex"><img src="https://i0.wp.com/shp.qpic.cn/collector/1655466387/937ec070-8448-4c7b-9c8b-abd41ce892cb/0"></p>'
-		},
-		{
-			date: "2024-10-05 16:16:06",
-			tags: ["日常"],
-			content: "记录第一条说说"
-		}
-	]
-};
+  // API 接口请求优先，数据格式保持和 data 一致
+  api: '',
+  // api 为空则使用 data 静态数据 
+  // 注意：图片请用 vh-img-flex 类包裹
+  data: [
+    {
+      "date": "2025-04-21 14:57:16",
+      "tags": [
+        "咒术回战",
+      ],
+      "content": "领域展开 <p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/rJ0X6Vi.png\"></p>"
+    },
+    {
+      "date": "2025-04-20 14:57:06",
+      "tags": [
+        "日常"
+      ],
+      "content": "记录第一条说说"
+    }
+  ]
+}
 ```
 
-### 圈子（需部署FreshRSS）
+### 圈子（需部署 FreshRSS）
 
 ```js
 // 配置文件 src/page_data/Friends.ts
@@ -184,25 +179,11 @@ export default {
   // api 为空则使用 data 静态数据
   data: [
     {
-      "title": "Astro 中使用 Lenis 增加鼠标滚动阻尼感",
+      "title": "Fetch的GET、POST简单HTTP请求封装",
       "auther": "韩小韩博客",
-      "date": "2025-03-06",
-      "link": "https://www.vvhan.com/article/Lenis-in-Astro",
-      "content": "在移动端触控交互中，惯性滚动带来的丝滑体验已成为标配，但鼠标滚轮受限于机械结构，滚动时难免产生生硬的段落感。如何让传统滚轮操作也能获得如触控板般的阻尼反馈？Lenis库通过JavaScript模拟惯性算法，成功将”物理惯性”引入网页滚动，本文将解析其实现原理与实战应用。"
-    },
-    {
-      "title": "Astro 添加 Twikoo 评论组件",
-      "auther": "韩小韩博客",
-      "date": "2025-03-03",
-      "link": "https://www.vvhan.com/article/astro-twikoo",
-      "content": "Astro在使用视图过渡路由时，在跳转路由时，会导致JS文件只有在第一次进入页面时生效，所以Astro在使用视图过渡路由下Twikoo时无法正常使用的，我是单独写了一个评论组件，对Twikoo进行动态加载，然后在需要评论的页面引入的。"
-    },
-    {
-      "title": "Astro主题-优雅的vhAstro-Theme【使用文档】",
-      "auther": "韩小韩博客",
-      "date": "2025-03-02",
-      "link": "https://www.vvhan.com/article/astro-theme-vhastro-theme",
-      "content": "🥝从Z-Blog到Emlog，从Typecho到Hexo，从动态博客到静态博客，作为一个前端，我深入了解了多种SSG工具，如Hexo、Vitepress、Hugo等，并最终锁定了Astro作为重构博客的选择。🍇Astro活跃的社区支持、广泛的现代框架兼容性、高效的性能优化、优秀的开发体验。"
+      "date": "2025-02-24",
+      "link": "https://www.vvhan.com/article/fetch-get-post",
+      "content": "在现代Web开发中，FetchAPI已经可以完全替代Ajax，是处理HTTP请求的利器，且支持异步操作和Promise链式调用。本文将详细介绍如何使用FetchAPI封装GET和POST请求。通过封装，代码可复用性更高，逻辑更清晰，同时还能简化错误处理和请求配置，大大提升开发效率和代码质量。GET请"
     }
   ]
 }
@@ -229,7 +210,6 @@ type: "links" # 页面类型
 comment: false # 关闭页面评论（默认开启）
 ---
 ```
-
 
 ## ✅ Lighthouse
 
@@ -278,17 +258,17 @@ comment: false # 关闭页面评论（默认开启）
 ```js
 export default {
   // 网站标题
-  Title: '韩小韩博客',
+  Title: 'xqq博客',
   // 网站地址
-  Site: 'https://www.vvhan.com',
+  Site: 'https://www.journy.online',
   // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
   // 网站描述
-  Description: '韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。',
+  Description: 'xqq博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
   // 网站作者
-  Author: '.𝙃𝙖𝙣',
+  Author: '.Xqq',
   // 作者头像
-  Avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640',
+  Avatar: 'https://wp-cdn.4ce.cn/v2/T7R5Ive.png',
   // 网站座右铭
   Motto: '运气是计划之外的东西.',
   // Cover 网站缩略图
@@ -301,7 +281,7 @@ export default {
     "I am making progress in the time I haven't shared with you.",
   ],
   // 网站创建时间
-  CreateTime: '2021-09-01',
+  CreateTime: '2025-04-20',
   // 顶部 Banner 配置
   HomeBanner: {
     enable: true,
@@ -400,10 +380,22 @@ export default {
     // 微信收款码
     WeChat: '/assets/images/wechat.webp'
   },
+  // 访问网页 自动推送到搜索引擎
+  SeoPush: {
+    enable: false,
+    serverApi: '',
+    paramsName: 'url'
+  },
   // 页面阻尼滚动速度
   ScrollSpeed: 666
 }
 ```
+
+## Twikoo 评论配置、邮箱配置
+
+参考资料：
+  1. https://twikoo.js.org/configuration.html
+  2. https://twikoo.js.org/configuration.html#%E9%85%8D%E7%BD%AE
 
 ## 🌈 组件
 
