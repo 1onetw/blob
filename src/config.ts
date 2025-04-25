@@ -66,7 +66,7 @@ export default {
     // 建议使用 https://tabler.io/icons 直接下载 SVG
     { text: 'Github', link: 'https://github.com/1onetw', icon: 'WebSite_github' },
     { text: 'API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
-    { text: '塔罗牌', link: 'https://tarlo.chat', icon: 'WebSite_hot' },
+    { text: '塔罗牌', link: 'https://tarlo.chat', icon: 'WebSite_tarot' },
     { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
