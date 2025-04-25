@@ -8,7 +8,7 @@ tags:
   - Tarot-Web
 id: kaiyuan-tarot
 cover: https://i0.wp.com/uxiaohan.github.io/v2/2024/12/1733449691.png
-date: 2024-12-06 09:37:11
+date: 2025-04-25 13:56:11
 ---
 
 :::note
@@ -19,11 +19,11 @@ date: 2024-12-06 09:37:11
 
 ![【开源】Tarot-塔罗牌占卜Tarot-Web](https://i0.wp.com/uxiaohan.github.io/v2/2024/12/1733449968.webp)
 
-::btn[点击体验]{link="https://tarot.4ce.cn/"}
+::btn[点击体验]{link="https://tarlo.chat"}
 
 ### 项目地址
 
-::btn[Tarot-Web - Github]{link="https://github.com/uxiaohan/Tarot-Web"}
+::btn[Tarot-Web - Github]{link="https://github.com/1onetw/Tarot-Web#"}
 
 ## 如何部署
 
