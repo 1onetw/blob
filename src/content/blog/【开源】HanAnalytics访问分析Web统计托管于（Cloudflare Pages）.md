@@ -1,21 +1,21 @@
 ---
-title: 【开源】HanAnalytics访问分析Web统计托管于（Cloudflare Pages）
-date: 2024-09-22 20:20:13
+title: 【开源】XqqAnalytics访问分析Web统计托管于（Cloudflare Pages）
+date: 2025-04-26 13:14:13
 categories: Code
 tags:
-  - HanAnalytics
+  - XqqAnalytics
   - Cloudflare Pages
   - umami
   - Analytics Engine
   - 网站分析
 
-id: "han-analytics"
+id: "xqq-analytics"
 cover: "https://i0.wp.com/uxiaohan.github.io/v2/2024/09/1727007937.webp"
 recommend: true
 ---
 
 :::note
-Han-Analytics 是一个简单的网络分析跟踪器和仪表板，托管在被称为赛博菩萨的 Cloudflare 上,无成本稳定运行,每天可达10万次免费统计。
+Xqq-Analytics 是一个简单的网络分析跟踪器和仪表板，托管在被称为赛博菩萨的 Cloudflare 上,无成本稳定运行,每天可达10万次免费统计。
 域名、服务器、数据库 通通都不用! 托管在 Cloudflare Pages 上即可快速部署网站分析仪表板。
 :::
 
@@ -23,11 +23,11 @@ Han-Analytics 是一个简单的网络分析跟踪器和仪表板，托管在被
 
 ![HanAnalytics](https://i0.wp.com/uxiaohan.github.io/v2/2024/09/1726993735.webp)
 
-::btn[点击体验]{link="https://analytics.vvhan.com/"}
+::btn[点击体验]{link="https://analytics-b49.pages.dev/"}
 
 ### 项目地址
 
-::btn[HanAnalytics - Github]{link="https://github.com/uxiaohan/HanAnalytics" type="success"}
+::btn[HanAnalytics - Github]{link="https://github.com/1onetw/Analytics" type="success"}
 
 ### 部署
 
