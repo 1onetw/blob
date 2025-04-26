@@ -9,7 +9,7 @@ export default {
       "tags": [
         "CF职业比赛",
       ],
-      "content": "上帝宠儿复出！！！<video src=\"https://f.video.weibocdn.com/o0/dNVenx0tlx08nJca3kzC01041201bGsq0E010.mp4?label=mp4_hd&template=852x480.25.0&ori=0&ps=1CwnkDw1GXwCQx&Expires=1745657079&ssig=TfKnCm9zu%2B&KID=unistore,video\" poster=\"https://wp-cdn.4ce.cn/v2/3SpL23n.png\" autoplay=\"true\" loop=\"true\" muted=\"true\"></video>"
+      "content": "上帝宠儿复出！！！"
     },
     {
       "date": "2025-04-26 15:35:16",
