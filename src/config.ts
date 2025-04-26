@@ -67,7 +67,7 @@ export default {
     { text: 'Github', link: 'https://github.com/1onetw', icon: 'WebSite_github' },
     { text: 'API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
     { text: '塔罗牌', link: 'https://tarlo.chat', icon: 'WebSite_tarot' },
-    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
+    { text: 'HanAnalytics', link: 'https://analytics-b49.pages.dev/', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
   AsideShow: {
