@@ -5,6 +5,20 @@ export default {
   // 注意：图片请用 vh-img-flex 类包裹
   data: [
     {
+      "date": "2025-04-26 15:39:16",
+      "tags": [
+        "CF职业比赛",
+      ],
+      "content": "上帝宠儿复出！！！<video src=\"https://f.video.weibocdn.com/o0/dNVenx0tlx08nJca3kzC01041201bGsq0E010.mp4?label=mp4_hd&template=852x480.25.0&ori=0&ps=1CwnkDw1GXwCQx&Expires=1745657079&ssig=TfKnCm9zu%2B&KID=unistore,video\" poster=\"https://wp-cdn.4ce.cn/v2/3SpL23n.png\" autoplay=\"true\" loop=\"true\" muted=\"true\"></video>"
+    },
+    {
+      "date": "2025-04-26 15:35:16",
+      "tags": [
+        "人生感悟",
+      ],
+      "content": "Learn to accept yourself. You are not an all-powerful and highly efficient machine. For any effort you make to improve yourself, you deserve praise, encouragement and compliment. The process is far more important than the result. As long as you have a goal and are doing something related to it, whether you enjoy and love life during the process is far more important than the final outcome. "
+    },
+    {
       "date": "2025-04-22 16:40:16",
       "tags": [
         "肖申克的救赎",
