@@ -4,7 +4,7 @@ categories: code
 tags: ['ECS']
 id: "5b035c6d36a6e236"
 date: 2025-04-27 16:53:57
-cover: "https://wp-cdn.4ce.cn/v2/6A3kVl2.jpeg"
+cover: "https://wp-cdn.4ce.cn/v2/uwd0Ks5.jpeg"
 ---
 
 :::note
