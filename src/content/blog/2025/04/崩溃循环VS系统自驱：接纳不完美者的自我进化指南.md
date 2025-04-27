@@ -4,7 +4,7 @@ categories: cognition
 tags: ['两种心理状态的转变']
 id: "4bb6964c38303406"
 date: 2025-04-27 14:54:51
-cover: "封面图URL (为空默认随机内置封面 /public/assets/images/banner)"
+cover: "https://wp-cdn.4ce.cn/v2/MsOdD5F.jpeg"
 ---
 
 :::note
