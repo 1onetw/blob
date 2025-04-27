@@ -4,7 +4,7 @@ categories: question
 tags: ['mysql卸载重装']
 id: "266c7af8da6c216e"
 date: 2025-04-27 16:59:53
-cover: "https://wp-cdn.4ce.cn/v2/1Nhr1Mo.jpeg"
+cover: "https://wp-cdn.4ce.cn/v2/G8FvDYE.jpeg"
 ---
 
 :::note
