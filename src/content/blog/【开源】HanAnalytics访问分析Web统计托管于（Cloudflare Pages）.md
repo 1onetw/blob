@@ -1,7 +1,7 @@
 ---
 title: 【开源】XqqAnalytics访问分析Web统计托管于（Cloudflare Pages）
 date: 2025-04-26 13:14:13
-categories: Code
+categories: Project
 tags:
   - XqqAnalytics
   - Cloudflare Pages

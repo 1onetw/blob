@@ -1,6 +1,6 @@
 ---
 title: "Astro主题-优雅的vhAstro-Theme【使用文档】"
-categories: Code
+categories: Project
 tags: ["Astro", "主题", "博客", "vhAstro", "vhAstro-Theme"]
 id: "astro-theme-vhastro-theme"
 date: 2025-04-024 18:18:18
