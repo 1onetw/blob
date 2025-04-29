@@ -381,9 +381,7 @@ url就是支付成功后跳转的页面，也就是return_url
 
 ### get_pay方法
 
-1. ![image-20240520193818843](upload%5Cimage-20240520193818843.png)
-
-    安装对应的aliyun支付相关包：pip安装会失败，因为其中一个依赖包(pycrypto:加密算法)不兼容win10，所以采取以下步骤进行安装
+1. 安装对应的aliyun支付相关包：pip安装会失败，因为其中一个依赖包(pycrypto:加密算法)不兼容win10，所以采取以下步骤进行安装
 
 2. ![image-20240520193957734](https://cdn.jsdelivr.net/gh/1onetw/BlogImage@main/pic/202405201939661.png)
 
