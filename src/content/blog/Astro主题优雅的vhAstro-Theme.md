@@ -395,7 +395,7 @@ export default {
 
 参考资料：
   1. https://twikoo.js.org/configuration.html
-  2. https://twikoo.js.org/configuration.html#%E9%85%8D%E7%BD%AE
+  2. https://thirdshire.com/twikoo-tutorial/
 
 ## 🌈 组件
 
