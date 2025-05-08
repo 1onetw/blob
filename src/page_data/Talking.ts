@@ -7,6 +7,13 @@ export default {
     {
       "date": "2025-04-27 15:44:16",
       "tags": [
+        "code",
+      ],
+      "content": "一个产品完整上线流程: <p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/zymYBR2.png\"></p><p class=\"vh-img-flex\"><img src=\"https://wp-cdn.4ce.cn/v2/zymYBR2.png\"></p>"
+    },
+    {
+      "date": "2025-04-27 15:44:16",
+      "tags": [
         "人生感悟",
       ],
       "content": "执行力 = 驱动力 + 简单易操作的事 \n-- 驱动力：a. 欲望驱动：时间周期较短，像是打了一个寒颤 \nb. 兴趣驱动：时间周期较长，可以提高你的心力（长时间付出靠的就是你的心力）\n-- 简单易操作的事：增强自信，形成正反馈注：简单易操作，可为短期行为，可为中期行为。如：得到老师夸奖，月考的班级排名进步，每天教别人题"
