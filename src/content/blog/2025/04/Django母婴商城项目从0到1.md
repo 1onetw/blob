@@ -1,6 +1,6 @@
 ---
 title: "Django母婴商城项目从0到1"
-categories: project
+categories: Project
 tags: ['Django', '网站开发']
 id: "2391d02d0bb68706"
 date: 2025-04-29 15:25:49
