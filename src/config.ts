@@ -1,14 +1,14 @@
 export default {
   // 网站标题
-  Title: 'xqq博客',
+  Title: 'lcz博客',
   // 网站地址
   Site: 'https://www.journy.online',
   // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
   // 网站描述
-  Description: 'xqq博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
+  Description: 'lcz博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
   // 网站作者
-  Author: '.Xqq',
+  Author: '.lcz',
   // 作者头像
   Avatar: 'https://wp-cdn.4ce.cn/v2/T7R5Ive.png',
   // 网站座右铭
@@ -67,7 +67,7 @@ export default {
     { text: 'Github', link: 'https://github.com/1onetw', icon: 'WebSite_github' },
     { text: 'API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
     { text: '塔罗牌', link: 'https://tarlo.chat', icon: 'WebSite_tarot' },
-    { text: 'HanAnalytics', link: 'https://analytics-b49.pages.dev/', icon: 'WebSite_analytics' },
+    { text: 'Analytics', link: 'https://analytics-b49.pages.dev/', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
   AsideShow: {
