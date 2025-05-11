@@ -8,7 +8,7 @@ export default {
   // 网站描述
   Description: 'lcz博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
   // 网站作者
-  Author: '.lcz',
+  Author: '.Lcz',
   // 作者头像
   Avatar: 'https://wp-cdn.4ce.cn/v2/T7R5Ive.png',
   // 网站座右铭
