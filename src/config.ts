@@ -4,23 +4,22 @@ export default {
   // 网站地址
   Site: 'https://www.journy.online',
   // 网站副标题
-  Subtitle: '不曾与你分享的时间,我在进步.',
+  Subtitle: '路漫漫其修远兮，吾将上下而求索',
   // 网站描述
-  Description: 'lcz博客 一专于AI大模型算法工程师, 多精于计算机视觉、语音识别、强化学习、草莓派编程、机器人运动学等领域，致力于做出钢铁侠中的机械臂和全景语音助手',
+  Description: 'lcz 一个记录生活、分享知识的个人博客。',
   // 网站作者
   Author: '.lcz',
   // 作者头像
-  Avatar: 'https://wp-cdn.4ce.cn/v2/T7R5Ive.png',
+  Avatar: 'https://wp-cdn.4ce.cn/v2/0bka8Mb.jpeg',
   // 网站座右铭
-  Motto: '运气是计划之外的东西.',
+  Motto: '路怎么走比到哪更重要.',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)
   Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
-    '不曾与你分享的时间,我在进步.',
-    "I am making progress in the time I haven't shared with you.",
+    '路漫漫其修远兮，吾将上下而求索。',
   ],
   // 网站创建时间
   CreateTime: '2025-04-20',

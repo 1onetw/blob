@@ -13,8 +13,8 @@ type: "links"
 :::
 
 ```yaml
-name: xqq博客
+name: lcz博客
 link: https://journy.online
-avatar: https://wp-cdn.4ce.cn/v2/T7R5Ive.png
-desc: 心火不熄,步履不停.
+avatar: https://wp-cdn.4ce.cn/v2/0bka8Mb.jpeg
+desc: 路怎么走比到哪更重要.
 ```
