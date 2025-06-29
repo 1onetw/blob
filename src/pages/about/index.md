@@ -12,7 +12,6 @@ lcz 一个记录生活、分享知识的个人博客。
 我期待在这里与你分享我的见解、经验和最新的技术动态。
 :::
 
-
 ## 技术
 
 ### 数学知识
@@ -27,16 +26,78 @@ lcz 一个记录生活、分享知识的个人博客。
 
 - 编程语言：python、C++、java、SQL、HTML、CSS、JS
 
-- 其他相关技术：MySQL、linux系统、魔法上网、个人服务器管理、云部署、前端组件库（Element UI、Ant Design）、前端框架(Vue、Axios、Apache ECharts)、Git、GitHub、AIGC应用、后端SSM
 
-- 领域知识：爬虫、django
+- 前端开发：前端组件库（Element UI、Ant Design）、前端框架(Vue、Axios、Apache ECharts)
 
+
+- Java后端开发：Spring、MVC、Mybatis、Mybatis-plus
+
+
+- 爬虫：requests库、多进程多协程、模拟登录、大规模代理IP池、大规模账号池、验证码识别、滑块验证、scrapy框架、分布式部署、js逆向
+
+
+- 其他相关技术：MySQL、linux系统、魔法上网、个人服务器管理、云部署、Git、GitHub、AIGC应用
 
 ### 项目
 
-- 用户中心
+- 老周用户中心
 
 ## 哲学——世界观和方法论
+
+### 马克思主义者哲学
+
+#### 唯物论
+
+【唯物论】 = 物质观(物质世界二重化) + 意识观(意识与人工智能)
+
+*物质观=物质+运动+静止+时空
+*意识观=意识+起源+本质+作用
+
+*原理一 物质VS意识
+*原理二 客观规律性VS主观能动性
+*原理三 世界的物质统一性
+
+#### 辩证法
+
+**二特征 = 普遍联系+变化发展**
+
+事物是普遍联系的 —— 有全局观
+
+事物是变化发展的，是一个过程 —— 有历史观
+
+**三规律 = 对立统一+量变质变+否定之否定**
+
+对立统一：
+
+```markdown
+矛盾的对立统一揭示了事物变化发展的内在动力。
+
+矛盾的斗争性和同一性、普遍性和特殊性、不平衡性。
+
+内部矛盾是事物发展的内因，是根本原因；
+外部矛盾是事物发展的外因，是加速或延缓作用。
+正如驱动力 = 内驱力 + 外驱力，内驱力 = 兴趣驱动 + 欲望驱动，外驱力 = 简单易做的事、学习氛围、学习竞争关系等。
+
+矛盾的不平衡性：主要矛盾和次要矛盾、主要方面和次要方面。
+```
+
+量变与质变：
+
+```markdown
+量变与质变相互依存、相互转化。
+```
+
+否定之否定：
+
+```markdown
+肯定 ——> 否定(片面) ——> 否定之否定(得到全新的自己)
+人的成长一定是曲折前进、螺旋式上升的。
+所以有的人就是太年轻，成长说的就是否定之否定。
+```
+
+**五范畴=内容VS形式+本质VS现象+原因VS结果+必然VS偶然+可能VS显示**
+
+todo
 
 ### 生命公式
 
@@ -65,6 +126,7 @@ lcz 一个记录生活、分享知识的个人博客。
 ——>投资回报="买入并持有"+估值+安全边际
 
 ### 个人原则
+
 ——>人生要义：活在当下。（路怎么走比到哪更重要）
 
 ——>欲望即痛苦：选择欲望需谨慎，且同一时间段只能追求一到两个欲望。
@@ -133,33 +195,31 @@ lcz 一个记录生活、分享知识的个人博客。
 
 ## 小站点
 
-|     主&emsp;页      |       <https://home.journy.online>        |
-| :-----------------: | :-------------------------------: |
-|   **博&emsp;客**    |    **<https://www.journy.online>**    |
-|  **Web&emsp;API**   |    **<https://api.vvhan.com>**    |
-|  **Analytics**  | **<https://analytics-b49.pages.dev/>** |
-| **塔罗牌** |    **<https://tarlo.chat>**     |
+|   主&emsp;页    |      <https://home.journy.online>      |
+|:-------------:|:--------------------------------------:|
+| **博&emsp;客**  |    **<https://www.journy.online>**     |
+|    **塔罗牌**    |        **<https://tarlo.chat>**        |
+| **Analytics** | **<https://analytics-b49.pages.dev/>** |
 
 ## 联系我
 
 ```js
-class LCZ { 
-  constructor() {
-    const metaData = [
-      [123,34,110,97,109,101,34,58,34,108,99,122,34,44,34,101,109,97,105,108,34,58,34], 
-      [51,51,50,56,55,57,56,56,50,64,113,113,46,99,111,109,34,44,34,81,81,34,58],      
-      [51,51,50,56,55,57,56,56,50,44,34,119,101,99,104,97,116,34,58,34],             
-      [49,56,53,51,50,49,48,52,50,57,53,34,44,34,98,105,114,116,104,34,58],       
-      [50,48,48,52,44,34,115,101,120,34,58,34,30007,34,125]           
-    ];
-    this.AboutLCZ = JSON.parse(String.fromCharCode(...[].concat(...metaData))); 
-    this.AboutLCZ.age = new Date().getFullYear() - this.AboutLCZ.birth;
-    
-    console.log("%cLCZ's Contact Protocol", "color:#00a1d6;font-size:16px;padding:4px"); 
-    console.table(this.AboutLCZ);
-  }
+class LCZ {
+    constructor() {
+        const metaData = [
+            [123, 34, 110, 97, 109, 101, 34, 58, 34, 108, 99, 122, 34, 44, 34, 101, 109, 97, 105, 108, 34, 58, 34],
+            [51, 51, 50, 56, 55, 57, 56, 56, 50, 64, 113, 113, 46, 99, 111, 109, 34, 44, 34, 81, 81, 34, 58],
+            [51, 51, 50, 56, 55, 57, 56, 56, 50, 44, 34, 119, 101, 99, 104, 97, 116, 34, 58, 34],
+            [49, 56, 53, 51, 50, 49, 48, 52, 50, 57, 53, 34, 44, 34, 98, 105, 114, 116, 104, 34, 58],
+            [50, 48, 48, 52, 44, 34, 115, 101, 120, 34, 58, 34, 30007, 34, 125]
+        ];
+        this.AboutLCZ = JSON.parse(String.fromCharCode(...[].concat(...metaData)));
+        this.AboutLCZ.age = new Date().getFullYear() - this.AboutLCZ.birth;
+
+        console.log("%cLCZ's Contact Protocol", "color:#00a1d6;font-size:16px;padding:4px");
+        console.table(this.AboutLCZ);
+    }
 }
+
 new LCZ(); 
 ```
-
-<style>.enfj-dom{margin:1rem 0;position:relative;box-sizing:border-box;padding:1rem 2rem;display:flex;justify-content:space-between;width:100%;height:16rem;background:#fff;border:1px solid #e3e8f7;border-radius:12px;box-shadow:0 8px 16px -4px #2c2d300c;overflow:hidden;background:url("/assets/images/enfj.webp") no-repeat;background-size:8.8rem auto;background-position:right 2rem;transition:all .36s}.enfj-dom:hover{background-position:right 1.6rem}.enfj-dom>.text{display:flex;flex-direction:column;width:100%}.enfj-dom>.text>em,.enfj-dom>.text>span{padding:0;margin:0;font-size:2rem;cursor:default;line-height:2.6rem;font-style:normal}.enfj-dom>.text>span{font-weight:bold;color:#33a474}.enfj-dom>.text>a.more-enfj{margin-top:auto;color:#999 !important;font-size:.88rem !important;text-decoration:none !important}</style>
