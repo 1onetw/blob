@@ -1,7 +1,7 @@
 ---
 title: "VSCode使用git常见问题"
 categories: code
-tags: ['VSCode使用Git常见问题']
+tags: [ 'VSCode使用Git常见问题' ]
 id: "351660b5aa28d2f3"
 date: 2025-05-11 21:13:07
 cover: "https://wp-cdn.4ce.cn/v2/7K35VGW.jpeg"
@@ -70,7 +70,11 @@ VSCode使用Git常见问题
     回退提交删除敏感信息重新提交、推送即可
     # 1. 回退到上一个提交（保留本地修改）
     git reset HEAD~1
-    ```
 
-    
+7. ssh: connect to host github.com port 22: Connection refused
 
+   ```markdown
+   将连接端口22改为443，在.ssh目录下 创建一个config文件，并在文件里添加以下内容：
+   Host github.com
+      Hostname ssh.github.com
+      Port 443
