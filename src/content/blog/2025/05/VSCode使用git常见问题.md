@@ -70,6 +70,7 @@ VSCode使用Git常见问题
     回退提交删除敏感信息重新提交、推送即可
     # 1. 回退到上一个提交（保留本地修改）
     git reset HEAD~1
+    ```
 
 7. ssh: connect to host github.com port 22: Connection refused
 
@@ -78,3 +79,4 @@ VSCode使用Git常见问题
    Host github.com
       Hostname ssh.github.com
       Port 443
+   ```
