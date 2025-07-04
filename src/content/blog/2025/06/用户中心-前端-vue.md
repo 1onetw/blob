@@ -4,7 +4,7 @@ categories: Project
 tags: [ '用户中心' ]
 id: "b293b2ab9279cf80"
 date: 2025-06-30 04:38:42
-cover: ""
+cover: "https://wp-cdn.4ce.cn/v2/EQwF3Mf.png"
 ---
 
 :::note
