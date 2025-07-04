@@ -9,7 +9,7 @@ export default {
       "tags": [
         "日常"
       ],
-      "content": "记录第一条说说"
+      "content": "记录第一条说说。"
     }
   ]
 }
