@@ -30,17 +30,17 @@ lcz 一个记录生活、分享知识的个人博客。
 - 前端开发：前端组件库（Element UI、Ant Design）、前端框架(Vue、Axios、Apache ECharts)
 
 
-- Java后端开发：Spring、MVC、Mybatis、Mybatis-plus
+- Java后端开发：Spring、MVC、Mybatis、Mybatis-plus、Springboot、MySQL
 
 
 - 爬虫：requests库、多进程多协程、模拟登录、大规模代理IP池、大规模账号池、验证码识别、滑块验证、scrapy框架、分布式部署、js逆向
 
 
-- 其他相关技术：MySQL、linux系统、魔法上网、个人服务器管理、云部署、Git、GitHub、AIGC应用
+- 其他相关技术：linux、魔法上网、个人服务器管理、云部署、Git、GitHub、AIGC应用
 
 ### 项目
 
-- 老周用户中心
+- 用户中心
 
 ## 哲学——世界观和方法论
 
